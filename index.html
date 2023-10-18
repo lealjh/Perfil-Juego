@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERACION AVATAR</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<div>
+    <div class="cont-general">
+    <div class="left">
+        <h2>REGISTRO JUGADOR</h2>
+        <input type="file" accept=".jpg, .png, .webp" id="Avatar">
+        <input type="text" id="nombres" placeholder="ingrese sus nombres">
+        <input type="text" id="email" placeholder="ingrese sus email">
+        <input type="text" id="userName" placeholder="ingrese su nombre de usuario">
+      <select id="rol">
+        <option> seleccione un rol </option>
+        <option value="Impostor">Impostor</option>
+        <option value="Tripulante">Tripulante</option>
+      </select>
+      <input type="color" id="color" placeholder="ingrese un color">
+        <button onclick="avatarFull()">Generar</button>
+    </div>
+
+    <div class="right">
+        <h2>AVATAR GENERADO</h2>
+        <div class="cont-avatar">
+            <img src="img/avartarAmongus1.png"  id="mostrar-avatar" alt="">
+            <div class="datos">
+                <label>Name Tag</label>
+                <h3 id="mostrar-username">USERNAME</h3>
+                <label>Name Tag</label>
+                <h4 id="mostrar-rol">ROL</h4>
+                <label>Name Tag</label>
+                <P id="mostrar-skills">Skills</P>
+                <div>
+                    <img src="img/Alter-egos-dead-kenny.JPG" id="show-user-Img" alt="">
+                    <article class="nameTag">
+                        <label>Name Tag</label><br>
+                        <p  id="mostrar-nombres">NOMBRES Y APELLIDOS</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+    </div>
+
+
+<script src="js/main.js"></script>
+    
+</body>
+</html>
