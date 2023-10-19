@@ -14,12 +14,12 @@ body{
 }
 .cont-general{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     max-height: 800px;
     margin: 10px;
     padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: absolute;
     inset: 4px;
     border-radius: 8px;
@@ -60,7 +60,7 @@ body{
 
 .box{
     position: relative;
-    width: 1225px;
+    width: 1130px;
     height: 710px;
     background: #1c1c1c1c;
     border-radius: 8px;
@@ -72,9 +72,9 @@ body{
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 1200px;
+    width: 1100px;
     height: 820px;
-    background: linear-gradient(0deg, transparent, #3190cf, #3190cf);
+    background: linear-gradient(0deg, transparent, #084975, #075e97, #0b76bd );
     transform-origin:bottom right;
     animation: animate 6s linear infinite;
 }
@@ -84,9 +84,9 @@ body{
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 1200px;
+    width: 1100px;
     height: 820px;
-    background: linear-gradient(0deg, transparent, #e0af28, #e0af28);
+    background: linear-gradient(0deg, transparent, #cfa224, #d4a31c, #f39a16);
     transform-origin:bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
